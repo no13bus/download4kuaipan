@@ -9,7 +9,7 @@ pip install -r requirement.txt
 
 2.首先你要有金山快盘的账户 然后到这个[地址](http://www.kuaipan.cn/developers)申请快盘的开发平台的应用创建应用后就能得到consumer_key consumer_ecret。然后执行python Kuaipan_OAuth.py即可在命令行的提示下最终得到oauth_token oauth_token_secret这2个值。然后将config.py里面的相关配置修改性下。
 至于kuaipan_dir 和download_dir的意义，看下图
-![image](http://github.com/no13bus/download4kuaipan/raw/master/快盘.png)
+![image](https://raw.githubusercontent.com/no13bus/download4kuaipan/master/kuaipan.png)
 图中的kuaipan_dir = 'testdir'
 download_dir指的是vps上你设置的下载文件的路径
 
