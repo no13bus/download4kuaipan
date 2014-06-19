@@ -1,7 +1,6 @@
 # download4kuaipan
 
-写这个程序主要是最近刚买了个很便宜的vps，无聊中发现他下载youtube视频的速度特别快，能达到20M/s甚至更高。因此写了这个程序，用vps远程下载视频，然后远程监测下载文件夹的文件变化，如果发现有新增文件出现
-即把文件上传到金山快盘里面去。等到有空了从金山快盘下载视频或者文件，速度绝对比ssh代理下载的快。程序使用supervisor监控程序。
+写这个程序主要是最近刚买了个很便宜的vps，无聊中发现他下载youtube视频的速度特别快，能达到20M/s甚至更高。因此写了这个程序，用vps远程下载视频，然后远程监测下载文件夹的文件变化，如果发现有新增文件出现即把文件上传到金山快盘里面去。等到有空了从金山快盘下载视频或者文件，速度绝对比ssh代理下载的快。程序使用supervisor监控程序。
 ===================
 
 1.使用下面的命令直接安装必要的包
@@ -33,9 +32,9 @@ youtube的网址里面出现的=要变成\= 否则fabric无法解析 不知道�
 ===================
 
 用到的开源项目
-[金山快盘API](https://github.com/deren/python-kuaipan)
-[监控linux文件变化 pyinotify](https://github.com/seb-m/pyinotify)
-[supervisord](https://github.com/Supervisor/supervisor)
-[fabric部署利器](https://github.com/fabric/fabric)
+* [金山快盘API](https://github.com/deren/python-kuaipan)
+* [监控linux文件变化 pyinotify](https://github.com/seb-m/pyinotify)
+* [supervisord](https://github.com/Supervisor/supervisor)
+* [fabric部署利器](https://github.com/fabric/fabric)
 
 
