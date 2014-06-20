@@ -31,6 +31,9 @@ youtube的网址里面出现的=要变成\= 否则fabric无法解析 不知道�
 2.supervisord监控应用的时候 这个应用如果有一些print输出的时候，监控里面并看不到任何输出，只是看到是否在running。不知道这个大家都是咋解决的
 
 ===================
+TO-List
+对百度网盘的支持
+==================
 
 用到的开源项目
 * [金山快盘API](https://github.com/deren/python-kuaipan)
